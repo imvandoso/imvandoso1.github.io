@@ -1,23 +1,153 @@
 {
-    "name": "flutter_web",
-    "short_name": "flutter_web",
-    "start_url": ".",
+    "name": "DashPKG Online Flutter Tutorials",
+    "short_name": "DashPKG",
+    "description": "DashPKG is a free learning platform specializing in making tutorials and guides for Dart and Flutter packages and plugins. DashPKG creates simplified and interactive learning experiences through simple, step-by-step tutorials equipped with figures, tables, codes, and live examples, starting from the basics and going up to the advanced levels, covering all the aspects of packages in Flutter.",
+    "id": "https://flutter360.blogspot.com/?source=pwa",
+    "start_url": "https://flutter360.blogspot.com/?source=pwa",
+    "scope": "https://flutter360.blogspot.com/",
+    "display_override": ["window-control-overlay", "minimal-ui"],
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
     "orientation": "portrait-primary",
+    "background_color": "#ffffff",
+    "theme_color": "#11ABB0",
+    "lang": "en",
+    "dir": "ltr",
     "prefer_related_applications": false,
-    "icons": [
+    "shortcuts": [
         {
-            "src": "icons/Icon-192.png",
-            "sizes": "192x192",
-            "type": "image/png"
+          "name": "Home page",
+          "short_name": "Home",
+          "description": "Go to DashPKG home page",
+          "url": "https://flutter360.blogspot.com/?source=pwa",
+          "icons": [{ "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsCwmf_y3QoIfv0XVnWRGr5onasES5JZN7C1IMUZZpcIJ8VzsMAnTdOQZTSMORaxppwH1z8eiUO9Hcd9gft43og6VbROXuS6VwvqxKdiKueE4dgIXhLo_Y9ovGaANLwqxCk8-eDcangKsVTBulkjcPirTTMecW-EzWiFJTTt8cmf-cwI2Ib5jzqiZ/s1600/favicon.png", "sizes": "192x192" }]
         },
         {
-            "src": "icons/Icon-512.png",
+          "name": "Flutter packages",
+          "short_name": "Flutter",
+          "description": "Go to Flutter packages page",
+          "url": "https://flutter360.blogspot.com/p/flutter-packages.html?source=pwa",
+          "icons": [{ "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsCwmf_y3QoIfv0XVnWRGr5onasES5JZN7C1IMUZZpcIJ8VzsMAnTdOQZTSMORaxppwH1z8eiUO9Hcd9gft43og6VbROXuS6VwvqxKdiKueE4dgIXhLo_Y9ovGaANLwqxCk8-eDcangKsVTBulkjcPirTTMecW-EzWiFJTTt8cmf-cwI2Ib5jzqiZ/s1600/favicon.png", "sizes": "192x192" }]
+        },
+        {
+          "name": "Dart packages",
+          "short_name": "Dart",
+          "description": "Go to Dart packages page",
+          "url": "https://flutter360.blogspot.com/p/dart-packages.html?source=pwa",
+          "icons": [{ "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsCwmf_y3QoIfv0XVnWRGr5onasES5JZN7C1IMUZZpcIJ8VzsMAnTdOQZTSMORaxppwH1z8eiUO9Hcd9gft43og6VbROXuS6VwvqxKdiKueE4dgIXhLo_Y9ovGaANLwqxCk8-eDcangKsVTBulkjcPirTTMecW-EzWiFJTTt8cmf-cwI2Ib5jzqiZ/s1600/favicon.png", "sizes": "192x192" }]
+        },
+        {
+          "name": "About DashPKG",
+          "short_name": "About",
+          "description": "Go to About DashPKG page",
+          "url": "https://flutter360.blogspot.com/p/about.html?source=pwa",
+          "icons": [{ "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsCwmf_y3QoIfv0XVnWRGr5onasES5JZN7C1IMUZZpcIJ8VzsMAnTdOQZTSMORaxppwH1z8eiUO9Hcd9gft43og6VbROXuS6VwvqxKdiKueE4dgIXhLo_Y9ovGaANLwqxCk8-eDcangKsVTBulkjcPirTTMecW-EzWiFJTTt8cmf-cwI2Ib5jzqiZ/s1600/favicon.png", "sizes": "192x192" }]
+        },
+        {
+          "name": "Contact us",
+          "short_name": "Contact",
+          "description": "Go to Contact us page",
+          "url": "https://flutter360.blogspot.com/p/contact.html?source=pwa",
+          "icons": [{ "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsCwmf_y3QoIfv0XVnWRGr5onasES5JZN7C1IMUZZpcIJ8VzsMAnTdOQZTSMORaxppwH1z8eiUO9Hcd9gft43og6VbROXuS6VwvqxKdiKueE4dgIXhLo_Y9ovGaANLwqxCk8-eDcangKsVTBulkjcPirTTMecW-EzWiFJTTt8cmf-cwI2Ib5jzqiZ/s1600/favicon.png", "sizes": "192x192" }]
+        }
+    ],
+    "screenshots": [
+        {
+           "src": "/images/siteLogo.png",
+           "type": "image/png",
+           "sizes": "206x60",
+           "form_factor": "wide"
+        },
+        {
+           "src": "/images/siteImg.jpg",
+           "type": "image/jpg",
+           "sizes": "1200x630",
+           "form_factor": "wide"
+        }
+    ]
+    "icons": [
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh8uJmcg_yc545-KR_ti_OPGLAmm9TchNlSpUIVpmi5oDkLeQzp4Ce251ggdDSlL71197LTal_a2myq2SMuiJc7yL6u07N0YRsdvC11IV7Z-5z9QpLYeNtmbLWOjsFKwILeNcgwA4J7zdaWapHlx98RmLqihqDhbRO0TMWZY5gOYkaoPHbEN0h60_6w/s1600/favicon.png",
+            "sizes": "32x32",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUViPrJcZZ-8plp_qaOLRHkWJrBCSbOgqodFoj_X2l3hvX44IldUT3KWopwDjUJCxiSgUTwYFxy7D6Jw5MOsISYRMEmATznWsUCDZ4lx8Jftylv_S6LfD23WhyZ3CO2qlNYbMGyHki4trdktjFGDqS5-Xe0Pu9YpKTDXMWK1y2RbBhwftMnQSSOLN9/s1600/favicon.png",
+            "sizes": "57x57",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjS1PIgptM_WNRQDETnv_fM3gYTZ12TXGJOnHh7sHY8fLoV0QRhndNtsDGTBBQCHVCpWw_d3MUSy2BNfJS3l-A9RkDML5WzYxt86Pe9cw72W2kN-RA2DfuKk_pduQF9UR4-k8dgLH3u-O6FB9jxez7y4MX5DQ7s_xesVEJDW84PYLN4TU3oxw5DcZYo/s1600/favicon.png",
+            "sizes": "60x60",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEirZ0xeHkBMufcKiKPJJtTP1lYZ4UQOj5mch5Erasl-jJlkfIUlmW3lYdkFTqqgC9oqVdH70bLiWFsuYbdqgRKHtftjmcqyJi3kNO5j6-2qouW2Nsc2ttNl3SycuM6ap9VEblwVs-QL1dtCfXwXFfp6MIa0emUVrGsOKqtHSQL2xf5BQ8p1bTEL5SIA/s1600/favicon.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjzJNUmWNyYok0LkIXJL5jUkovr9H0w-pojxundK5aDvdOEFh-RxZnc1UQ8zEXzIrmc_MK6jjTKSGy8hDWvxs0cr8LyfDO3sJsS-Bv42PhlBA3YQRACuLj33q8FO3aCgLoFxEwKoGx4dq71tYqBQ3zwEydqM6e9WQSzCoV6jd9apxjqWA4_UXcEfNeo/s1600/favicon.png",
+            "sizes": "76x76",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjqBRKtdq_Xh_6cjDkj26bc5agQvCAXYMLFc3ZTQL4WgKVJSDnzsVtv_Zjcr2j0Lt2IcBRvkAVkyRY17hzXhwdna7_cKfirzVX6OlZVq2sgyIWL89JUwuQxojobphjc9YK2TNKbeiUTapWOrT8YQwX-mxleeTuRjas_D429M5le4FVSUzPjkClsjq6R/s1600/favicon.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTxa6jjSMRYDqB03mHNxYU1zh3qhlFB92L_iOVDgk6pHfLY4uQ9H40gRZaAX8aK2iD8Yjln7za5kQrLekWGCCogHMtqdA4KLU3o6kH8y7meFDz0oZdkaMNeJE1LkHAQXogdwmwkvLu-RAXcFc9nsxDGajcO_bxNj7Hf1-lSUlYFPcMuuzmynu8e8o6/s1600/favicon.png",
+            "sizes": "114x114",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiU6mjlZYHM3XopLEAsiCLPHEohQ2JhH_-9AN5Jx048pG_LOzWNTtodMJBULfRad4BWfVaG4XroP8-wdQn47pfxQAsf2NYF9clhUgNpSLY9liySSuyvD556lmpdOPMD53f_HVGM1s2We3mE2-vBNPopOk8vxnx1QSA8dM2oY3mU5f9JyW_iZgf4uxN2/s1600/favicon.png",
+            "sizes": "120x120",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxufIXSPHK-OxGCmr5hPfOp7c8UgME6Ur5HeVCP4ks0DSmk3xun81oMaqww5pWHg8T5Yxy7oFHhmTDvd8vPXW7KVuyjQ3NRguzvBEwO2xQRhTz9UmxgHsPi99C58_m8CIdzD9jOfzysLBcvXd2xrmROfyts01IH8beV5JvSDzDBe_ttbY4dwrx9Vm4/s1600/favicon.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg-M5BTXYAWW6GDAwEYrL7bMo2Xg2wKy9n0I3WWTuC0QEat5uv9-WJ8CdAlubkWkGvEwUpB-7uINeHHpJzHWo2iBjvai1Vvp63SNSE9i7hGF0tAltoL4j2nhygXWd55N9uTFEdph821dE7iKs5IHR_PoI40wDFZDExWqyXIpDu21Z1KydEO5XdfB0hJ/s1600/favicon.png",
+            "sizes": "152x152",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgraeClTQeL6tVQk58Bux7U8X7Kx4YoMiJhYwvFNgkWVtniag3nRWHQl6XUPlixeswIkACDrpRFD80I5FPY3zr7JNDD0zGfkU7Px8BLzWcrAD_AFnnMcmbls0_x3ykYHS4ZYU1Qrzp_n1vPeyhEho29PjJNP0HAbV5yntA0cKRPAJqlztLDk6N4AwAY/s1600/favicon.png",
+            "sizes": "180x180",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpsCwmf_y3QoIfv0XVnWRGr5onasES5JZN7C1IMUZZpcIJ8VzsMAnTdOQZTSMORaxppwH1z8eiUO9Hcd9gft43og6VbROXuS6VwvqxKdiKueE4dgIXhLo_Y9ovGaANLwqxCk8-eDcangKsVTBulkjcPirTTMecW-EzWiFJTTt8cmf-cwI2Ib5jzqiZ/s1600/favicon.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhz-gKKmKZcw03kIGioksz5wn-LuoQCGwNiL9OL3VG0Q5vptn0PP5AI_7zgCG_wUNABPCzNpV5AFkLzfQ0nCPueKy_NOjQju5Kx_jmso3qjrNAXrmMJ3sjO90qq1Cld0ag5iD9ci3TcwIDBhUVlYFSSHvHi8UFMvZvzivAPYqldAg8n8Da5UVhEunZD/s1600/favicon.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl194OquPcYpHQsHMNQxqWLk5bZnfPBjbJhdDJ-N7pqK_FEc1sdbepAMvBbr7Qtp4vePqanvNhoweTvS09w5W_qOrb4TMYLi8iV2BqkSxbfSu8UoIvr7DL10ykMBu-pueJnWbp8F2csfSXYmLHfOkLgFMFKDrieVUQqbR-iB_erhYjasCN6jZugF5m/s1600/favicon.png",
             "sizes": "512x512",
-            "type": "image/png"
+            "type": "image/png",
+            "purpose": "any maskable"
         }
     ]
 }
