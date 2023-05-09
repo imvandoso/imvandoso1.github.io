@@ -12,6 +12,7 @@
     "theme_color": "#11ABB0",
     "lang": "en",
     "dir": "ltr",
+    "categories": ["Flutter packages", "Dart packages"],
     "prefer_related_applications": false,
     "shortcuts": [
         {
